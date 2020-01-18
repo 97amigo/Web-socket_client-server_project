@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="WPF project" Height="447" Width="608">
+    <Grid Margin="0,0,44,23">
+        <Button Content="Отправить запрос" HorizontalAlignment="Left" Margin="245,339,0,0" VerticalAlignment="Top" Width="117" 
+                Click="Button_Click"/>
+        <TextBox x:Name="myTextBox" HorizontalAlignment="Left" Height="268" Margin="64,51,0,0" TextWrapping="Wrap" 
+                 Text="" VerticalAlignment="Top" Width="197" KeyDown="myTextBox_KeyDown"/>
+        <TextBox x:Name="myTextBox1" HorizontalAlignment="Left"
+                   Margin="337,51,0,0" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" 
+                   VerticalAlignment="Top" Height="268" Width="200"/>
+        <Label Content="Ввод" HorizontalAlignment="Left" Margin="130,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.541,1.846"/>
+        <Label Content="Вывод" HorizontalAlignment="Left" Margin="412,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.605,0.962" Height="26"/>
+    </Grid>
+</Window>
+    
