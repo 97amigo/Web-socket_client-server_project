@@ -3,6 +3,7 @@ Simple web-socket WPF client-server project transfer numbers between client and 
 You put number to textbox(client) and other textbox(server) give you doubled number.
 
 Instruction for starting:
+
 open: /WpfApp1/bin/Debug/server.exe    
 or
 in terminal: python3 server.py
