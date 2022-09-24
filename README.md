@@ -4,8 +4,6 @@ You put number to textbox(client) and other textbox(server) give you doubled num
 
 Instruction for starting:
 
-open: /WpfApp1/bin/Debug/server.exe    
-or
-in terminal: python3 server.py
+open: /WpfApp1/bin/Debug/server.exe     запуск сервера
 
-open: /WpfApp1/bin/Debug/WpfApp1.exe 
+open: /WpfApp1/bin/Debug/WpfApp1.exe    запуск клиента
